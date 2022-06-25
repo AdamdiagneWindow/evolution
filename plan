@@ -12,6 +12,7 @@ attributes:
 
 -abandunce: determines frequency of food generation
 -nourishment: determines rise in energy ingestion per unit food
+-lifespan: determines how long food will exist before disappearing
 
 
 behavior:
