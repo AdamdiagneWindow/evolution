@@ -1,0 +1,19 @@
+Simulation 
+|
+World
+- food
+
+
+
+
+FOOD
+
+attributes:
+
+-abandunce: determines frequency of food generation
+-nourishment: determines rise in energy ingestion per unit food
+
+
+behavior:
+- randomly generates at a position in world 
+
