@@ -1,0 +1,3 @@
+/home/diagne/projects/evolution/build/CMakeFiles/Evolution.dir
+/home/diagne/projects/evolution/build/CMakeFiles/edit_cache.dir
+/home/diagne/projects/evolution/build/CMakeFiles/rebuild_cache.dir

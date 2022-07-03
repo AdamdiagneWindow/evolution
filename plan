@@ -3,6 +3,21 @@ Simulation
 World
 - food
 
+SIMULATION
+
+attributes: 
+
+-generations: *number of generations the simulation will last
+
+behavior:
+
+WORLD
+
+attributes
+
+-abandunce: determines frequency of food generation
+
+behavior:  
 
 
 
@@ -10,8 +25,9 @@ FOOD
 
 attributes:
 
--abandunce: determines frequency of food generation
--nourishment: determines rise in energy ingestion per unit food
+-position: indicates coordinates of food in world
+
+-nourishment: determines rise in energy from ingestion per unit food
 -lifespan: determines how long food will exist before disappearing
 
 
