@@ -1,0 +1,36 @@
+Graph
+-list of nodes
+-index of starting node
+-index of ending node
+-adjacency matrix for nodes
+
+Nodes
+-index
+-predecessor node
+-searched status
+-distance
+
+initially each nodes has a distance of infinity 
+
+nodes with smaller distances have higher priority in the queue
+
+set distance of starting node to 0
+shift order of priority queue 
+
+while distance of ending node is infinity 
+
+	retrieve first member of priority queue. 
+	look at adjacent nodes (via adjacency matrix), that have not been searched
+	for each adjacent node
+		Update distance
+		Update predecessor node 
+		Shift order of priority queue
+
+	If node is searched, remove from priority queue
+
+backtrack predecessor nodes from ending node to start node. Store result in ordered list of nodes representing the shortest path
+
+return shortest path list
+
+
+

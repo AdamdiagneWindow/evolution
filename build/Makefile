@@ -129,101 +129,80 @@ Evolution/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/build
 .PHONY : Evolution/fast
 
-food.o: food.cpp.o
-.PHONY : food.o
-
 # target to build an object file
-food.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/food.cpp.o
-.PHONY : food.cpp.o
-
-food.i: food.cpp.i
-.PHONY : food.i
+source/animal.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/animal.o
+.PHONY : source/animal.o
 
 # target to preprocess a source file
-food.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/food.cpp.i
-.PHONY : food.cpp.i
-
-food.s: food.cpp.s
-.PHONY : food.s
+source/animal.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/animal.i
+.PHONY : source/animal.i
 
 # target to generate assembly for a file
-food.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/food.cpp.s
-.PHONY : food.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
+source/animal.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/animal.s
+.PHONY : source/animal.s
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
+source/food.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/food.o
+.PHONY : source/food.o
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
+source/food.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/food.i
+.PHONY : source/food.i
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-simulation.o: simulation.cpp.o
-.PHONY : simulation.o
+source/food.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/food.s
+.PHONY : source/food.s
 
 # target to build an object file
-simulation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/simulation.cpp.o
-.PHONY : simulation.cpp.o
-
-simulation.i: simulation.cpp.i
-.PHONY : simulation.i
+source/main.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/main.o
+.PHONY : source/main.o
 
 # target to preprocess a source file
-simulation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/simulation.cpp.i
-.PHONY : simulation.cpp.i
-
-simulation.s: simulation.cpp.s
-.PHONY : simulation.s
+source/main.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/main.i
+.PHONY : source/main.i
 
 # target to generate assembly for a file
-simulation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/simulation.cpp.s
-.PHONY : simulation.cpp.s
-
-world.o: world.cpp.o
-.PHONY : world.o
+source/main.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/main.s
+.PHONY : source/main.s
 
 # target to build an object file
-world.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/world.cpp.o
-.PHONY : world.cpp.o
-
-world.i: world.cpp.i
-.PHONY : world.i
+source/simulation.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/simulation.o
+.PHONY : source/simulation.o
 
 # target to preprocess a source file
-world.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/world.cpp.i
-.PHONY : world.cpp.i
-
-world.s: world.cpp.s
-.PHONY : world.s
+source/simulation.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/simulation.i
+.PHONY : source/simulation.i
 
 # target to generate assembly for a file
-world.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/world.cpp.s
-.PHONY : world.cpp.s
+source/simulation.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/simulation.s
+.PHONY : source/simulation.s
+
+# target to build an object file
+source/world.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/world.o
+.PHONY : source/world.o
+
+# target to preprocess a source file
+source/world.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/world.i
+.PHONY : source/world.i
+
+# target to generate assembly for a file
+source/world.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Evolution.dir/build.make CMakeFiles/Evolution.dir/source/world.s
+.PHONY : source/world.s
 
 # Help Target
 help:
@@ -234,18 +213,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Evolution"
-	@echo "... food.o"
-	@echo "... food.i"
-	@echo "... food.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... simulation.o"
-	@echo "... simulation.i"
-	@echo "... simulation.s"
-	@echo "... world.o"
-	@echo "... world.i"
-	@echo "... world.s"
+	@echo "... source/animal.o"
+	@echo "... source/animal.i"
+	@echo "... source/animal.s"
+	@echo "... source/food.o"
+	@echo "... source/food.i"
+	@echo "... source/food.s"
+	@echo "... source/main.o"
+	@echo "... source/main.i"
+	@echo "... source/main.s"
+	@echo "... source/simulation.o"
+	@echo "... source/simulation.i"
+	@echo "... source/simulation.s"
+	@echo "... source/world.o"
+	@echo "... source/world.i"
+	@echo "... source/world.s"
 .PHONY : help
 
 

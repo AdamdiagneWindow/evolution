@@ -8,10 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/diagne/projects/evolution/food.cpp" "CMakeFiles/Evolution.dir/food.cpp.o" "gcc" "CMakeFiles/Evolution.dir/food.cpp.o.d"
-  "/home/diagne/projects/evolution/main.cpp" "CMakeFiles/Evolution.dir/main.cpp.o" "gcc" "CMakeFiles/Evolution.dir/main.cpp.o.d"
-  "/home/diagne/projects/evolution/simulation.cpp" "CMakeFiles/Evolution.dir/simulation.cpp.o" "gcc" "CMakeFiles/Evolution.dir/simulation.cpp.o.d"
-  "/home/diagne/projects/evolution/world.cpp" "CMakeFiles/Evolution.dir/world.cpp.o" "gcc" "CMakeFiles/Evolution.dir/world.cpp.o.d"
+  "/home/diagne/projects/evolution/source/animal.cpp" "CMakeFiles/Evolution.dir/source/animal.o" "gcc" "CMakeFiles/Evolution.dir/source/animal.o.d"
+  "/home/diagne/projects/evolution/source/food.cpp" "CMakeFiles/Evolution.dir/source/food.o" "gcc" "CMakeFiles/Evolution.dir/source/food.o.d"
+  "/home/diagne/projects/evolution/source/main.cpp" "CMakeFiles/Evolution.dir/source/main.o" "gcc" "CMakeFiles/Evolution.dir/source/main.o.d"
+  "/home/diagne/projects/evolution/source/simulation.cpp" "CMakeFiles/Evolution.dir/source/simulation.o" "gcc" "CMakeFiles/Evolution.dir/source/simulation.o.d"
+  "/home/diagne/projects/evolution/source/world.cpp" "CMakeFiles/Evolution.dir/source/world.o" "gcc" "CMakeFiles/Evolution.dir/source/world.o.d"
   )
 
 # Targets to which this target links.

@@ -17,6 +17,11 @@ void World::generateFoodRandomPos()
 	std::cout << "added food to list" << std::endl;
 }
 
+std::vector<std::pair<int, int>> World::seekShortestPath(std::pair<int, int> start, std::pair<int, int> goal)
+{
+	std::vector<std::vector<int>> sptSet;
+}
+
 void World::checkOccupiedPos()
 {
 	for(int i=0; i<m_size; i++)

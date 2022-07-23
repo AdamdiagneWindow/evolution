@@ -12,6 +12,7 @@ class World
 		World();
 		std::vector <Food> getFoodList();
 		void generateFoodRandomPos();
+		void seekShortestPath(std::pair<int, int> start, std::pair<int, int> goal);
 		void checkOccupiedPos();
 
 	private:

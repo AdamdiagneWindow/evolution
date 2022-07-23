@@ -69,79 +69,95 @@ include CMakeFiles/Evolution.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Evolution.dir/flags.make
 
-CMakeFiles/Evolution.dir/main.cpp.o: CMakeFiles/Evolution.dir/flags.make
-CMakeFiles/Evolution.dir/main.cpp.o: ../main.cpp
-CMakeFiles/Evolution.dir/main.cpp.o: CMakeFiles/Evolution.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Evolution.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/main.cpp.o -MF CMakeFiles/Evolution.dir/main.cpp.o.d -o CMakeFiles/Evolution.dir/main.cpp.o -c /home/diagne/projects/evolution/main.cpp
+CMakeFiles/Evolution.dir/source/main.o: CMakeFiles/Evolution.dir/flags.make
+CMakeFiles/Evolution.dir/source/main.o: ../source/main.cpp
+CMakeFiles/Evolution.dir/source/main.o: CMakeFiles/Evolution.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Evolution.dir/source/main.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/source/main.o -MF CMakeFiles/Evolution.dir/source/main.o.d -o CMakeFiles/Evolution.dir/source/main.o -c /home/diagne/projects/evolution/source/main.cpp
 
-CMakeFiles/Evolution.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/main.cpp > CMakeFiles/Evolution.dir/main.cpp.i
+CMakeFiles/Evolution.dir/source/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/source/main.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/source/main.cpp > CMakeFiles/Evolution.dir/source/main.i
 
-CMakeFiles/Evolution.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/main.cpp -o CMakeFiles/Evolution.dir/main.cpp.s
+CMakeFiles/Evolution.dir/source/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/source/main.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/source/main.cpp -o CMakeFiles/Evolution.dir/source/main.s
 
-CMakeFiles/Evolution.dir/simulation.cpp.o: CMakeFiles/Evolution.dir/flags.make
-CMakeFiles/Evolution.dir/simulation.cpp.o: ../simulation.cpp
-CMakeFiles/Evolution.dir/simulation.cpp.o: CMakeFiles/Evolution.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Evolution.dir/simulation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/simulation.cpp.o -MF CMakeFiles/Evolution.dir/simulation.cpp.o.d -o CMakeFiles/Evolution.dir/simulation.cpp.o -c /home/diagne/projects/evolution/simulation.cpp
+CMakeFiles/Evolution.dir/source/simulation.o: CMakeFiles/Evolution.dir/flags.make
+CMakeFiles/Evolution.dir/source/simulation.o: ../source/simulation.cpp
+CMakeFiles/Evolution.dir/source/simulation.o: CMakeFiles/Evolution.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Evolution.dir/source/simulation.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/source/simulation.o -MF CMakeFiles/Evolution.dir/source/simulation.o.d -o CMakeFiles/Evolution.dir/source/simulation.o -c /home/diagne/projects/evolution/source/simulation.cpp
 
-CMakeFiles/Evolution.dir/simulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/simulation.cpp > CMakeFiles/Evolution.dir/simulation.cpp.i
+CMakeFiles/Evolution.dir/source/simulation.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/source/simulation.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/source/simulation.cpp > CMakeFiles/Evolution.dir/source/simulation.i
 
-CMakeFiles/Evolution.dir/simulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/simulation.cpp -o CMakeFiles/Evolution.dir/simulation.cpp.s
+CMakeFiles/Evolution.dir/source/simulation.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/source/simulation.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/source/simulation.cpp -o CMakeFiles/Evolution.dir/source/simulation.s
 
-CMakeFiles/Evolution.dir/world.cpp.o: CMakeFiles/Evolution.dir/flags.make
-CMakeFiles/Evolution.dir/world.cpp.o: ../world.cpp
-CMakeFiles/Evolution.dir/world.cpp.o: CMakeFiles/Evolution.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Evolution.dir/world.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/world.cpp.o -MF CMakeFiles/Evolution.dir/world.cpp.o.d -o CMakeFiles/Evolution.dir/world.cpp.o -c /home/diagne/projects/evolution/world.cpp
+CMakeFiles/Evolution.dir/source/world.o: CMakeFiles/Evolution.dir/flags.make
+CMakeFiles/Evolution.dir/source/world.o: ../source/world.cpp
+CMakeFiles/Evolution.dir/source/world.o: CMakeFiles/Evolution.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Evolution.dir/source/world.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/source/world.o -MF CMakeFiles/Evolution.dir/source/world.o.d -o CMakeFiles/Evolution.dir/source/world.o -c /home/diagne/projects/evolution/source/world.cpp
 
-CMakeFiles/Evolution.dir/world.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/world.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/world.cpp > CMakeFiles/Evolution.dir/world.cpp.i
+CMakeFiles/Evolution.dir/source/world.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/source/world.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/source/world.cpp > CMakeFiles/Evolution.dir/source/world.i
 
-CMakeFiles/Evolution.dir/world.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/world.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/world.cpp -o CMakeFiles/Evolution.dir/world.cpp.s
+CMakeFiles/Evolution.dir/source/world.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/source/world.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/source/world.cpp -o CMakeFiles/Evolution.dir/source/world.s
 
-CMakeFiles/Evolution.dir/food.cpp.o: CMakeFiles/Evolution.dir/flags.make
-CMakeFiles/Evolution.dir/food.cpp.o: ../food.cpp
-CMakeFiles/Evolution.dir/food.cpp.o: CMakeFiles/Evolution.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Evolution.dir/food.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/food.cpp.o -MF CMakeFiles/Evolution.dir/food.cpp.o.d -o CMakeFiles/Evolution.dir/food.cpp.o -c /home/diagne/projects/evolution/food.cpp
+CMakeFiles/Evolution.dir/source/food.o: CMakeFiles/Evolution.dir/flags.make
+CMakeFiles/Evolution.dir/source/food.o: ../source/food.cpp
+CMakeFiles/Evolution.dir/source/food.o: CMakeFiles/Evolution.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Evolution.dir/source/food.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/source/food.o -MF CMakeFiles/Evolution.dir/source/food.o.d -o CMakeFiles/Evolution.dir/source/food.o -c /home/diagne/projects/evolution/source/food.cpp
 
-CMakeFiles/Evolution.dir/food.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/food.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/food.cpp > CMakeFiles/Evolution.dir/food.cpp.i
+CMakeFiles/Evolution.dir/source/food.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/source/food.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/source/food.cpp > CMakeFiles/Evolution.dir/source/food.i
 
-CMakeFiles/Evolution.dir/food.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/food.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/food.cpp -o CMakeFiles/Evolution.dir/food.cpp.s
+CMakeFiles/Evolution.dir/source/food.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/source/food.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/source/food.cpp -o CMakeFiles/Evolution.dir/source/food.s
+
+CMakeFiles/Evolution.dir/source/animal.o: CMakeFiles/Evolution.dir/flags.make
+CMakeFiles/Evolution.dir/source/animal.o: ../source/animal.cpp
+CMakeFiles/Evolution.dir/source/animal.o: CMakeFiles/Evolution.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Evolution.dir/source/animal.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Evolution.dir/source/animal.o -MF CMakeFiles/Evolution.dir/source/animal.o.d -o CMakeFiles/Evolution.dir/source/animal.o -c /home/diagne/projects/evolution/source/animal.cpp
+
+CMakeFiles/Evolution.dir/source/animal.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Evolution.dir/source/animal.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diagne/projects/evolution/source/animal.cpp > CMakeFiles/Evolution.dir/source/animal.i
+
+CMakeFiles/Evolution.dir/source/animal.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Evolution.dir/source/animal.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diagne/projects/evolution/source/animal.cpp -o CMakeFiles/Evolution.dir/source/animal.s
 
 # Object files for target Evolution
 Evolution_OBJECTS = \
-"CMakeFiles/Evolution.dir/main.cpp.o" \
-"CMakeFiles/Evolution.dir/simulation.cpp.o" \
-"CMakeFiles/Evolution.dir/world.cpp.o" \
-"CMakeFiles/Evolution.dir/food.cpp.o"
+"CMakeFiles/Evolution.dir/source/main.o" \
+"CMakeFiles/Evolution.dir/source/simulation.o" \
+"CMakeFiles/Evolution.dir/source/world.o" \
+"CMakeFiles/Evolution.dir/source/food.o" \
+"CMakeFiles/Evolution.dir/source/animal.o"
 
 # External object files for target Evolution
 Evolution_EXTERNAL_OBJECTS =
 
-Evolution: CMakeFiles/Evolution.dir/main.cpp.o
-Evolution: CMakeFiles/Evolution.dir/simulation.cpp.o
-Evolution: CMakeFiles/Evolution.dir/world.cpp.o
-Evolution: CMakeFiles/Evolution.dir/food.cpp.o
+Evolution: CMakeFiles/Evolution.dir/source/main.o
+Evolution: CMakeFiles/Evolution.dir/source/simulation.o
+Evolution: CMakeFiles/Evolution.dir/source/world.o
+Evolution: CMakeFiles/Evolution.dir/source/food.o
+Evolution: CMakeFiles/Evolution.dir/source/animal.o
 Evolution: CMakeFiles/Evolution.dir/build.make
 Evolution: CMakeFiles/Evolution.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Evolution"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/diagne/projects/evolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Evolution"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Evolution.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

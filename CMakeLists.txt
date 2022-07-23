@@ -1,3 +1,11 @@
 project(Evolution)
 
-add_executable(Evolution main.cpp simulation.cpp world.cpp food.cpp)
+
+include_directories(include)
+
+add_executable(Evolution 
+	source/main.cpp 
+	source/simulation.cpp 
+	source/world.cpp 
+	source/food.cpp 
+	source/animal.cpp)
